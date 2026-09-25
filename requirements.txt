@@ -1,0 +1,2 @@
+# Render builds from the repository root. Keep backend dependency pins in one place.
+-r backend/requirements.txt
