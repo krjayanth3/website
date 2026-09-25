@@ -1,0 +1,3761 @@
+[
+{
+  "model": "content.landingpage",
+  "pk": 1,
+  "fields": {
+    "slug": "landing-page",
+    "locale": "en",
+    "admin_title": "Landing page",
+    "company_name": "AlphaBeastCodeX Private Limited",
+    "search_placeholder": "Search services, platforms and workflows...",
+    "contact_email": "directors@abcx.co.in",
+    "contact_phone": "9113543816",
+    "header_search": "Search",
+    "header_contact_aria": "Contact AlphaBeastCodeX",
+    "header_display_aria": "Change site theme",
+    "theme_mode_system_label": "System",
+    "theme_mode_light_label": "Light",
+    "theme_mode_dark_label": "Dark",
+    "hero_eyebrow": "Software engineering, AI, and product delivery for modern businesses",
+    "hero_title": "Build software that solves real work, scales cleanly, and feels right to use.",
+    "hero_description": "AlphaBeastCodeX partners with businesses to design websites, platforms, mobile apps, AI workflows, cloud systems, and long-term support models with one accountable senior team.",
+    "hero_primary_cta": "Book a discovery call",
+    "hero_secondary_cta": "See representative work",
+    "delivery_eyebrow": "Example delivery rhythm",
+    "delivery_title": "Senior-led delivery with fewer surprises.",
+    "delivery_badge": "Strategy to launch",
+    "working_style_eyebrow": "Working style",
+    "working_style_title": "Product, design, and engineering move in one loop.",
+    "working_style_description": "Less handoff friction, tighter decisions, and cleaner releases.",
+    "services_eyebrow": "Services",
+    "services_title": "Technology services structured around real business needs.",
+    "services_description": "Whether you need a corporate website, a mobile app, an internal platform, AI automation, cloud modernization, or ongoing support, we bring strategy, design, engineering, and delivery into one accountable team.",
+    "services_overview_eyebrow": "Service overview",
+    "services_overview_title": "End-to-end software services, from public-facing products to internal systems.",
+    "services_overview_description": "Our work spans design, engineering, AI, infrastructure, integration, testing, and support, so clients do not have to coordinate separate vendors for every stage.",
+    "process_eyebrow": "Process",
+    "process_title": "A delivery process clients can actually follow.",
+    "process_description": "We keep scope, tradeoffs, and progress visible so decisions happen early, handoffs stay smaller, and projects do not drift into avoidable surprises.",
+    "work_eyebrow": "Representative work",
+    "work_title": "Representative engagements across product, platform, and operations work.",
+    "about_eyebrow": "Who we are",
+    "about_title": "Building for a billion Indians",
+    "about_description": "Technology built to serve real users at meaningful scale with clarity, reliability, and long-term thinking.",
+    "about_purpose_title": "Purpose",
+    "about_purpose_description": "We build software that removes operational friction, improves customer experience, and gives teams more confidence to move.",
+    "about_values_title": "Values",
+    "about_people_title": "Our people",
+    "about_people_description": "Our team brings together product thinkers, engineers, designers, and AI builders who stay close to the problem and communicate without noise.",
+    "careers_eyebrow": "Careers",
+    "careers_title": "Join a team that cares about useful software and clear thinking.",
+    "careers_description": "We value responsibility, practical judgment, and people who can move between detail and direction without adding noise.",
+    "careers_roles_title": "What we value",
+    "careers_cta": "Share your profile",
+    "careers_note": "Send your resume, portfolio, or a short introduction. We care more about how you think and build than polished buzzwords.",
+    "contact_eyebrow": "Contact",
+    "contact_title": "Ready to build the next version of your product with fewer compromises?",
+    "contact_description": "Share the brief, the bottleneck, or the delivery pressure your team is feeling. We can help shape the path from idea to release.",
+    "contact_placeholder": "Email is the fastest way to start. Share your requirement, timeline, or current bottleneck and we will take it from there.",
+    "footer_eyebrow": "AlphaBeastCodeX",
+    "footer_title": "Senior-led software delivery for ambitious teams.",
+    "footer_description": "We design, build, modernize, and support digital products, internal platforms, and AI-powered workflows with a calm, accountable delivery style.",
+    "footer_company_tag": "Software company",
+    "footer_cta": "Start a conversation",
+    "footer_quick_links_title": "Quick links",
+    "footer_service_focus_title": "Service focus",
+    "footer_contact_title": "Contact",
+    "footer_contact_label": "Reach out directly",
+    "footer_social_links_title": "Social",
+    "footer_note": "Built for long-term product thinking, clear communication, and reliable execution.",
+    "footer_legal": "AlphaBeastCodeX Private Limited. All rights reserved.",
+    "is_published": true,
+    "created_at": "2026-07-29T17:02:45.161Z",
+    "updated_at": "2026-07-29T17:10:45.038Z"
+  }
+},
+{
+  "model": "content.landingpagenavigationlink",
+  "pk": 5,
+  "fields": {
+    "order": 0,
+    "landing_page": 1,
+    "label": "Who we are",
+    "href": "#about"
+  }
+},
+{
+  "model": "content.landingpagenavigationlink",
+  "pk": 6,
+  "fields": {
+    "order": 1,
+    "landing_page": 1,
+    "label": "What we do",
+    "href": "#services"
+  }
+},
+{
+  "model": "content.landingpagenavigationlink",
+  "pk": 7,
+  "fields": {
+    "order": 2,
+    "landing_page": 1,
+    "label": "Our thinking",
+    "href": "#process"
+  }
+},
+{
+  "model": "content.landingpagenavigationlink",
+  "pk": 8,
+  "fields": {
+    "order": 3,
+    "landing_page": 1,
+    "label": "Careers",
+    "href": "#careers"
+  }
+},
+{
+  "model": "content.landingpageherofocusarea",
+  "pk": 5,
+  "fields": {
+    "order": 0,
+    "landing_page": 1,
+    "text": "Product strategy"
+  }
+},
+{
+  "model": "content.landingpageherofocusarea",
+  "pk": 6,
+  "fields": {
+    "order": 1,
+    "landing_page": 1,
+    "text": "Full-stack delivery"
+  }
+},
+{
+  "model": "content.landingpageherofocusarea",
+  "pk": 7,
+  "fields": {
+    "order": 2,
+    "landing_page": 1,
+    "text": "Platform modernization"
+  }
+},
+{
+  "model": "content.landingpageherofocusarea",
+  "pk": 8,
+  "fields": {
+    "order": 3,
+    "landing_page": 1,
+    "text": "AI workflow automation"
+  }
+},
+{
+  "model": "content.landingpagedeliverycadenceitem",
+  "pk": 5,
+  "fields": {
+    "order": 0,
+    "landing_page": 1,
+    "phase": "Week 1",
+    "title": "Clarity sprint",
+    "text": "Goals, technical reality, and delivery priorities get aligned quickly so the roadmap starts on firm ground."
+  }
+},
+{
+  "model": "content.landingpagedeliverycadenceitem",
+  "pk": 6,
+  "fields": {
+    "order": 1,
+    "landing_page": 1,
+    "phase": "Week 3",
+    "title": "Validated direction",
+    "text": "Interface concepts, architecture choices, and sequencing are concrete enough for sharp feedback instead of guesswork."
+  }
+},
+{
+  "model": "content.landingpagedeliverycadenceitem",
+  "pk": 7,
+  "fields": {
+    "order": 2,
+    "landing_page": 1,
+    "phase": "Week 6",
+    "title": "Production path",
+    "text": "Core flows, infrastructure, and integration edges are underway with a release plan that reflects real complexity."
+  }
+},
+{
+  "model": "content.landingpagedeliverycadenceitem",
+  "pk": 8,
+  "fields": {
+    "order": 3,
+    "landing_page": 1,
+    "phase": "Week 10+",
+    "title": "Launch and refine",
+    "text": "We tighten quality, monitor adoption, and help the next round of decisions happen from evidence rather than noise."
+  }
+},
+{
+  "model": "content.servicecategory",
+  "pk": 20,
+  "fields": {
+    "order": 0,
+    "landing_page": 1,
+    "title": "AI & Generative AI",
+    "description": "We design practical AI systems that automate work, improve response quality, and keep human oversight where it matters.",
+    "is_featured": true
+  }
+},
+{
+  "model": "content.servicecategory",
+  "pk": 21,
+  "fields": {
+    "order": 1,
+    "landing_page": 1,
+    "title": "Blockchain",
+    "description": "We build selective blockchain solutions where trust, traceability, or asset workflows genuinely benefit from distributed systems.",
+    "is_featured": false
+  }
+},
+{
+  "model": "content.servicecategory",
+  "pk": 22,
+  "fields": {
+    "order": 2,
+    "landing_page": 1,
+    "title": "BPO, KPO & ITES",
+    "description": "We support business operations with reliable service processes, reporting discipline, and technology-enabled delivery.",
+    "is_featured": false
+  }
+},
+{
+  "model": "content.servicecategory",
+  "pk": 23,
+  "fields": {
+    "order": 3,
+    "landing_page": 1,
+    "title": "Cloud & DevOps",
+    "description": "We modernize infrastructure, delivery pipelines, and cloud operations so teams can release faster with fewer deployment surprises.",
+    "is_featured": true
+  }
+},
+{
+  "model": "content.servicecategory",
+  "pk": 24,
+  "fields": {
+    "order": 4,
+    "landing_page": 1,
+    "title": "Cybersecurity",
+    "description": "We help teams strengthen security from architecture to testing so releases stay fast without leaving obvious gaps.",
+    "is_featured": true
+  }
+},
+{
+  "model": "content.servicecategory",
+  "pk": 25,
+  "fields": {
+    "order": 5,
+    "landing_page": 1,
+    "title": "Data & Analytics",
+    "description": "We turn scattered operational data into reporting systems and dashboards that help teams make clearer decisions.",
+    "is_featured": false
+  }
+},
+{
+  "model": "content.servicecategory",
+  "pk": 26,
+  "fields": {
+    "order": 6,
+    "landing_page": 1,
+    "title": "Digital Transformation",
+    "description": "We redesign broken workflows, legacy processes, and disconnected tools into systems that are easier to run and scale.",
+    "is_featured": false
+  }
+},
+{
+  "model": "content.servicecategory",
+  "pk": 27,
+  "fields": {
+    "order": 7,
+    "landing_page": 1,
+    "title": "Enterprise Integration",
+    "description": "We connect the systems your teams already use so data moves cleanly and manual coordination drops across the business.",
+    "is_featured": false
+  }
+},
+{
+  "model": "content.servicecategory",
+  "pk": 28,
+  "fields": {
+    "order": 8,
+    "landing_page": 1,
+    "title": "Internet of Things (IoT)",
+    "description": "We connect devices, sensors, and dashboards so teams can monitor operations in real time and act sooner.",
+    "is_featured": false
+  }
+},
+{
+  "model": "content.servicecategory",
+  "pk": 29,
+  "fields": {
+    "order": 9,
+    "landing_page": 1,
+    "title": "IT Consulting",
+    "description": "We help leadership teams make stronger technology decisions around architecture, roadmaps, delivery models, and platform direction.",
+    "is_featured": false
+  }
+},
+{
+  "model": "content.servicecategory",
+  "pk": 30,
+  "fields": {
+    "order": 10,
+    "landing_page": 1,
+    "title": "Machine Learning",
+    "description": "We build and operationalize machine learning solutions when prediction, classification, or personalization can create measurable value.",
+    "is_featured": false
+  }
+},
+{
+  "model": "content.servicecategory",
+  "pk": 31,
+  "fields": {
+    "order": 11,
+    "landing_page": 1,
+    "title": "Managed IT Services",
+    "description": "We provide steady operational support for infrastructure, systems, and user-facing issues without adding noise.",
+    "is_featured": false
+  }
+},
+{
+  "model": "content.servicecategory",
+  "pk": 32,
+  "fields": {
+    "order": 12,
+    "landing_page": 1,
+    "title": "Mobile App Development",
+    "description": "We build mobile applications that feel polished in daily use and stay maintainable as features, users, and teams grow.",
+    "is_featured": true
+  }
+},
+{
+  "model": "content.servicecategory",
+  "pk": 33,
+  "fields": {
+    "order": 13,
+    "landing_page": 1,
+    "title": "Quality Assurance & Testing",
+    "description": "We build testing practices that reduce release risk, improve confidence, and catch issues before users do.",
+    "is_featured": false
+  }
+},
+{
+  "model": "content.servicecategory",
+  "pk": 34,
+  "fields": {
+    "order": 14,
+    "landing_page": 1,
+    "title": "Software Development",
+    "description": "From internal tools to revenue-generating platforms, we build custom software around the way your business actually operates.",
+    "is_featured": true
+  }
+},
+{
+  "model": "content.servicecategory",
+  "pk": 35,
+  "fields": {
+    "order": 15,
+    "landing_page": 1,
+    "title": "Support & Maintenance",
+    "description": "We keep products stable, updated, and improving after launch so the system remains useful long after version one.",
+    "is_featured": false
+  }
+},
+{
+  "model": "content.servicecategory",
+  "pk": 36,
+  "fields": {
+    "order": 16,
+    "landing_page": 1,
+    "title": "Training & Internship",
+    "description": "We deliver practical training and internship programs that help teams and learners build real capability, not just collect certificates.",
+    "is_featured": false
+  }
+},
+{
+  "model": "content.servicecategory",
+  "pk": 37,
+  "fields": {
+    "order": 17,
+    "landing_page": 1,
+    "title": "UI/UX Design",
+    "description": "We design interfaces and product flows that feel clear, useful, and aligned with how real users think and work.",
+    "is_featured": false
+  }
+},
+{
+  "model": "content.servicecategory",
+  "pk": 38,
+  "fields": {
+    "order": 18,
+    "landing_page": 1,
+    "title": "Web Development",
+    "description": "We create fast, credible web experiences that help companies explain, sell, and support their services online.",
+    "is_featured": true
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 121,
+  "fields": {
+    "order": 0,
+    "service_category": 20,
+    "name": "AI Chatbots"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 122,
+  "fields": {
+    "order": 1,
+    "service_category": 20,
+    "name": "AI Agents"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 123,
+  "fields": {
+    "order": 2,
+    "service_category": 20,
+    "name": "Custom LLM Solutions"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 124,
+  "fields": {
+    "order": 3,
+    "service_category": 20,
+    "name": "Prompt Engineering"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 125,
+  "fields": {
+    "order": 4,
+    "service_category": 20,
+    "name": "Generative AI Applications"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 126,
+  "fields": {
+    "order": 5,
+    "service_category": 20,
+    "name": "Computer Vision"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 127,
+  "fields": {
+    "order": 6,
+    "service_category": 20,
+    "name": "OCR Solutions"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 128,
+  "fields": {
+    "order": 7,
+    "service_category": 20,
+    "name": "Natural Language Processing (NLP)"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 129,
+  "fields": {
+    "order": 8,
+    "service_category": 20,
+    "name": "AI Automation"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 130,
+  "fields": {
+    "order": 9,
+    "service_category": 20,
+    "name": "AI Consulting"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 131,
+  "fields": {
+    "order": 0,
+    "service_category": 21,
+    "name": "Smart Contracts"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 132,
+  "fields": {
+    "order": 1,
+    "service_category": 21,
+    "name": "DApps"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 133,
+  "fields": {
+    "order": 2,
+    "service_category": 21,
+    "name": "Enterprise Blockchain"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 134,
+  "fields": {
+    "order": 3,
+    "service_category": 21,
+    "name": "Wallet Integration"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 135,
+  "fields": {
+    "order": 4,
+    "service_category": 21,
+    "name": "Blockchain Consulting"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 136,
+  "fields": {
+    "order": 0,
+    "service_category": 22,
+    "name": "Technical Support"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 137,
+  "fields": {
+    "order": 1,
+    "service_category": 22,
+    "name": "Customer Support"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 138,
+  "fields": {
+    "order": 2,
+    "service_category": 22,
+    "name": "Back Office Operations"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 139,
+  "fields": {
+    "order": 3,
+    "service_category": 22,
+    "name": "Data Processing"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 140,
+  "fields": {
+    "order": 4,
+    "service_category": 22,
+    "name": "Research & Analytics"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 141,
+  "fields": {
+    "order": 5,
+    "service_category": 22,
+    "name": "Business Process Outsourcing"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 142,
+  "fields": {
+    "order": 0,
+    "service_category": 23,
+    "name": "Cloud Migration"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 143,
+  "fields": {
+    "order": 1,
+    "service_category": 23,
+    "name": "AWS Solutions"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 144,
+  "fields": {
+    "order": 2,
+    "service_category": 23,
+    "name": "Microsoft Azure"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 145,
+  "fields": {
+    "order": 3,
+    "service_category": 23,
+    "name": "Google Cloud Platform"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 146,
+  "fields": {
+    "order": 4,
+    "service_category": 23,
+    "name": "DevOps Implementation"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 147,
+  "fields": {
+    "order": 5,
+    "service_category": 23,
+    "name": "CI/CD Pipelines"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 148,
+  "fields": {
+    "order": 6,
+    "service_category": 23,
+    "name": "Docker & Kubernetes"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 149,
+  "fields": {
+    "order": 7,
+    "service_category": 23,
+    "name": "Infrastructure Management"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 150,
+  "fields": {
+    "order": 0,
+    "service_category": 24,
+    "name": "Vulnerability Assessment"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 151,
+  "fields": {
+    "order": 1,
+    "service_category": 24,
+    "name": "Penetration Testing"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 152,
+  "fields": {
+    "order": 2,
+    "service_category": 24,
+    "name": "Security Consulting"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 153,
+  "fields": {
+    "order": 3,
+    "service_category": 24,
+    "name": "Secure Application Development"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 154,
+  "fields": {
+    "order": 4,
+    "service_category": 24,
+    "name": "Security Audits"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 155,
+  "fields": {
+    "order": 5,
+    "service_category": 24,
+    "name": "Identity & Access Management"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 156,
+  "fields": {
+    "order": 0,
+    "service_category": 25,
+    "name": "Business Intelligence"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 157,
+  "fields": {
+    "order": 1,
+    "service_category": 25,
+    "name": "Power BI Dashboards"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 158,
+  "fields": {
+    "order": 2,
+    "service_category": 25,
+    "name": "Tableau Dashboards"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 159,
+  "fields": {
+    "order": 3,
+    "service_category": 25,
+    "name": "Data Engineering"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 160,
+  "fields": {
+    "order": 4,
+    "service_category": 25,
+    "name": "Data Warehousing"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 161,
+  "fields": {
+    "order": 5,
+    "service_category": 25,
+    "name": "Data Visualization"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 162,
+  "fields": {
+    "order": 6,
+    "service_category": 25,
+    "name": "Predictive Analytics"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 163,
+  "fields": {
+    "order": 0,
+    "service_category": 26,
+    "name": "Business Process Automation"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 164,
+  "fields": {
+    "order": 1,
+    "service_category": 26,
+    "name": "Legacy Modernization"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 165,
+  "fields": {
+    "order": 2,
+    "service_category": 26,
+    "name": "Digital Strategy"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 166,
+  "fields": {
+    "order": 3,
+    "service_category": 26,
+    "name": "Enterprise Transformation"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 167,
+  "fields": {
+    "order": 0,
+    "service_category": 27,
+    "name": "API Integration"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 168,
+  "fields": {
+    "order": 1,
+    "service_category": 27,
+    "name": "ERP Integration"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 169,
+  "fields": {
+    "order": 2,
+    "service_category": 27,
+    "name": "CRM Integration"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 170,
+  "fields": {
+    "order": 3,
+    "service_category": 27,
+    "name": "Payment Gateway Integration"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 171,
+  "fields": {
+    "order": 4,
+    "service_category": 27,
+    "name": "Third-Party Integrations"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 172,
+  "fields": {
+    "order": 0,
+    "service_category": 28,
+    "name": "Smart Device Solutions"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 173,
+  "fields": {
+    "order": 1,
+    "service_category": 28,
+    "name": "Industrial IoT"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 174,
+  "fields": {
+    "order": 2,
+    "service_category": 28,
+    "name": "Sensor Integration"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 175,
+  "fields": {
+    "order": 3,
+    "service_category": 28,
+    "name": "IoT Dashboards"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 176,
+  "fields": {
+    "order": 4,
+    "service_category": 28,
+    "name": "Remote Monitoring"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 177,
+  "fields": {
+    "order": 0,
+    "service_category": 29,
+    "name": "Technology Consulting"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 178,
+  "fields": {
+    "order": 1,
+    "service_category": 29,
+    "name": "Software Architecture"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 179,
+  "fields": {
+    "order": 2,
+    "service_category": 29,
+    "name": "Digital Strategy"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 180,
+  "fields": {
+    "order": 3,
+    "service_category": 29,
+    "name": "CTO as a Service"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 181,
+  "fields": {
+    "order": 4,
+    "service_category": 29,
+    "name": "Product Consulting"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 182,
+  "fields": {
+    "order": 0,
+    "service_category": 30,
+    "name": "Predictive Models"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 183,
+  "fields": {
+    "order": 1,
+    "service_category": 30,
+    "name": "Deep Learning"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 184,
+  "fields": {
+    "order": 2,
+    "service_category": 30,
+    "name": "Recommendation Systems"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 185,
+  "fields": {
+    "order": 3,
+    "service_category": 30,
+    "name": "Fraud Detection"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 186,
+  "fields": {
+    "order": 4,
+    "service_category": 30,
+    "name": "MLOps"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 187,
+  "fields": {
+    "order": 5,
+    "service_category": 30,
+    "name": "Model Deployment"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 188,
+  "fields": {
+    "order": 0,
+    "service_category": 31,
+    "name": "IT Infrastructure Management"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 189,
+  "fields": {
+    "order": 1,
+    "service_category": 31,
+    "name": "Remote IT Support"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 190,
+  "fields": {
+    "order": 2,
+    "service_category": 31,
+    "name": "Server Management"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 191,
+  "fields": {
+    "order": 3,
+    "service_category": 31,
+    "name": "Annual Maintenance Contracts (AMC)"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 192,
+  "fields": {
+    "order": 4,
+    "service_category": 31,
+    "name": "Help Desk Services"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 193,
+  "fields": {
+    "order": 5,
+    "service_category": 31,
+    "name": "Performance Monitoring"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 194,
+  "fields": {
+    "order": 0,
+    "service_category": 32,
+    "name": "Android Apps"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 195,
+  "fields": {
+    "order": 1,
+    "service_category": 32,
+    "name": "iOS Apps"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 196,
+  "fields": {
+    "order": 2,
+    "service_category": 32,
+    "name": "Flutter Apps"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 197,
+  "fields": {
+    "order": 3,
+    "service_category": 32,
+    "name": "React Native Apps"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 198,
+  "fields": {
+    "order": 4,
+    "service_category": 32,
+    "name": "Hybrid Apps"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 199,
+  "fields": {
+    "order": 5,
+    "service_category": 32,
+    "name": "Enterprise Mobile Applications"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 200,
+  "fields": {
+    "order": 0,
+    "service_category": 33,
+    "name": "Manual Testing"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 201,
+  "fields": {
+    "order": 1,
+    "service_category": 33,
+    "name": "Automation Testing"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 202,
+  "fields": {
+    "order": 2,
+    "service_category": 33,
+    "name": "Performance Testing"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 203,
+  "fields": {
+    "order": 3,
+    "service_category": 33,
+    "name": "Security Testing"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 204,
+  "fields": {
+    "order": 4,
+    "service_category": 33,
+    "name": "API Testing"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 205,
+  "fields": {
+    "order": 5,
+    "service_category": 33,
+    "name": "Mobile App Testing"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 206,
+  "fields": {
+    "order": 0,
+    "service_category": 34,
+    "name": "Custom Software Development"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 207,
+  "fields": {
+    "order": 1,
+    "service_category": 34,
+    "name": "Enterprise Software"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 208,
+  "fields": {
+    "order": 2,
+    "service_category": 34,
+    "name": "SaaS Product Development"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 209,
+  "fields": {
+    "order": 3,
+    "service_category": 34,
+    "name": "Product Engineering"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 210,
+  "fields": {
+    "order": 4,
+    "service_category": 34,
+    "name": "Desktop Applications"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 211,
+  "fields": {
+    "order": 5,
+    "service_category": 34,
+    "name": "API Development"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 212,
+  "fields": {
+    "order": 6,
+    "service_category": 34,
+    "name": "Software Modernization"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 213,
+  "fields": {
+    "order": 7,
+    "service_category": 34,
+    "name": "Legacy System Migration"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 214,
+  "fields": {
+    "order": 0,
+    "service_category": 35,
+    "name": "Software Maintenance"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 215,
+  "fields": {
+    "order": 1,
+    "service_category": 35,
+    "name": "Application Support"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 216,
+  "fields": {
+    "order": 2,
+    "service_category": 35,
+    "name": "Version Upgrades"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 217,
+  "fields": {
+    "order": 3,
+    "service_category": 35,
+    "name": "Bug Fixes"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 218,
+  "fields": {
+    "order": 4,
+    "service_category": 35,
+    "name": "Performance Optimization"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 219,
+  "fields": {
+    "order": 5,
+    "service_category": 35,
+    "name": "Security Updates"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 220,
+  "fields": {
+    "order": 0,
+    "service_category": 36,
+    "name": "Corporate Training"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 221,
+  "fields": {
+    "order": 1,
+    "service_category": 36,
+    "name": "AI & Machine Learning Training"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 222,
+  "fields": {
+    "order": 2,
+    "service_category": 36,
+    "name": "Python Development"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 223,
+  "fields": {
+    "order": 3,
+    "service_category": 36,
+    "name": "Cloud Computing"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 224,
+  "fields": {
+    "order": 4,
+    "service_category": 36,
+    "name": "Cybersecurity Training"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 225,
+  "fields": {
+    "order": 5,
+    "service_category": 36,
+    "name": "Data Analytics"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 226,
+  "fields": {
+    "order": 6,
+    "service_category": 36,
+    "name": "Internship Programs"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 227,
+  "fields": {
+    "order": 7,
+    "service_category": 36,
+    "name": "Workshops & Bootcamps"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 228,
+  "fields": {
+    "order": 0,
+    "service_category": 37,
+    "name": "UI Design"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 229,
+  "fields": {
+    "order": 1,
+    "service_category": 37,
+    "name": "UX Research"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 230,
+  "fields": {
+    "order": 2,
+    "service_category": 37,
+    "name": "Wireframing"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 231,
+  "fields": {
+    "order": 3,
+    "service_category": 37,
+    "name": "Prototyping"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 232,
+  "fields": {
+    "order": 4,
+    "service_category": 37,
+    "name": "Design Systems"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 233,
+  "fields": {
+    "order": 5,
+    "service_category": 37,
+    "name": "Brand Identity"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 234,
+  "fields": {
+    "order": 0,
+    "service_category": 38,
+    "name": "Corporate Websites"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 235,
+  "fields": {
+    "order": 1,
+    "service_category": 38,
+    "name": "E-commerce Websites"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 236,
+  "fields": {
+    "order": 2,
+    "service_category": 38,
+    "name": "Web Portals"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 237,
+  "fields": {
+    "order": 3,
+    "service_category": 38,
+    "name": "Progressive Web Apps (PWA)"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 238,
+  "fields": {
+    "order": 4,
+    "service_category": 38,
+    "name": "CMS Development"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 239,
+  "fields": {
+    "order": 5,
+    "service_category": 38,
+    "name": "Website Maintenance"
+  }
+},
+{
+  "model": "content.serviceitem",
+  "pk": 240,
+  "fields": {
+    "order": 6,
+    "service_category": 38,
+    "name": "Website Redesign"
+  }
+},
+{
+  "model": "content.industrysector",
+  "pk": 13,
+  "fields": {
+    "order": 0,
+    "landing_page": 1,
+    "title": "Banking, Finance & Insurance"
+  }
+},
+{
+  "model": "content.industrysector",
+  "pk": 14,
+  "fields": {
+    "order": 1,
+    "landing_page": 1,
+    "title": "Education & EdTech"
+  }
+},
+{
+  "model": "content.industrysector",
+  "pk": 15,
+  "fields": {
+    "order": 2,
+    "landing_page": 1,
+    "title": "Energy, Utilities & Telecom"
+  }
+},
+{
+  "model": "content.industrysector",
+  "pk": 16,
+  "fields": {
+    "order": 3,
+    "landing_page": 1,
+    "title": "Healthcare & Life Sciences"
+  }
+},
+{
+  "model": "content.industrysector",
+  "pk": 17,
+  "fields": {
+    "order": 4,
+    "landing_page": 1,
+    "title": "Logistics & Supply Chain"
+  }
+},
+{
+  "model": "content.industrysector",
+  "pk": 18,
+  "fields": {
+    "order": 5,
+    "landing_page": 1,
+    "title": "Manufacturing & Industrial"
+  }
+},
+{
+  "model": "content.industrysector",
+  "pk": 19,
+  "fields": {
+    "order": 6,
+    "landing_page": 1,
+    "title": "Media, Entertainment & OTT"
+  }
+},
+{
+  "model": "content.industrysector",
+  "pk": 20,
+  "fields": {
+    "order": 7,
+    "landing_page": 1,
+    "title": "Public Sector & Smart Cities"
+  }
+},
+{
+  "model": "content.industrysector",
+  "pk": 21,
+  "fields": {
+    "order": 8,
+    "landing_page": 1,
+    "title": "Real Estate & PropTech"
+  }
+},
+{
+  "model": "content.industrysector",
+  "pk": 22,
+  "fields": {
+    "order": 9,
+    "landing_page": 1,
+    "title": "Retail & E-commerce"
+  }
+},
+{
+  "model": "content.industrysector",
+  "pk": 23,
+  "fields": {
+    "order": 10,
+    "landing_page": 1,
+    "title": "Startups & SaaS"
+  }
+},
+{
+  "model": "content.industrysector",
+  "pk": 24,
+  "fields": {
+    "order": 11,
+    "landing_page": 1,
+    "title": "Travel & Hospitality"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 61,
+  "fields": {
+    "order": 0,
+    "industry_sector": 13,
+    "name": "Digital banking platforms"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 62,
+  "fields": {
+    "order": 1,
+    "industry_sector": 13,
+    "name": "Lending and loan workflow systems"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 63,
+  "fields": {
+    "order": 2,
+    "industry_sector": 13,
+    "name": "Insurance claims and policy portals"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 64,
+  "fields": {
+    "order": 3,
+    "industry_sector": 13,
+    "name": "Fraud monitoring and compliance tooling"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 65,
+  "fields": {
+    "order": 4,
+    "industry_sector": 13,
+    "name": "Customer onboarding and KYC journeys"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 66,
+  "fields": {
+    "order": 0,
+    "industry_sector": 14,
+    "name": "Learning management systems"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 67,
+  "fields": {
+    "order": 1,
+    "industry_sector": 14,
+    "name": "Student and faculty portals"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 68,
+  "fields": {
+    "order": 2,
+    "industry_sector": 14,
+    "name": "Assessment and certification workflows"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 69,
+  "fields": {
+    "order": 3,
+    "industry_sector": 14,
+    "name": "Virtual classroom experiences"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 70,
+  "fields": {
+    "order": 4,
+    "industry_sector": 14,
+    "name": "Education reporting dashboards"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 71,
+  "fields": {
+    "order": 0,
+    "industry_sector": 15,
+    "name": "Remote monitoring dashboards"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 72,
+  "fields": {
+    "order": 1,
+    "industry_sector": 15,
+    "name": "Smart metering and device integration"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 73,
+  "fields": {
+    "order": 2,
+    "industry_sector": 15,
+    "name": "Field service management platforms"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 74,
+  "fields": {
+    "order": 3,
+    "industry_sector": 15,
+    "name": "Usage and billing analytics"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 75,
+  "fields": {
+    "order": 4,
+    "industry_sector": 15,
+    "name": "Network operations tooling"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 76,
+  "fields": {
+    "order": 0,
+    "industry_sector": 16,
+    "name": "Patient portals and appointment systems"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 77,
+  "fields": {
+    "order": 1,
+    "industry_sector": 16,
+    "name": "Telemedicine and care coordination tools"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 78,
+  "fields": {
+    "order": 2,
+    "industry_sector": 16,
+    "name": "EMR/EHR integrations"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 79,
+  "fields": {
+    "order": 3,
+    "industry_sector": 16,
+    "name": "Medical imaging and AI diagnostics support"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 80,
+  "fields": {
+    "order": 4,
+    "industry_sector": 16,
+    "name": "Healthcare analytics dashboards"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 81,
+  "fields": {
+    "order": 0,
+    "industry_sector": 17,
+    "name": "Fleet and route management"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 82,
+  "fields": {
+    "order": 1,
+    "industry_sector": 17,
+    "name": "Warehouse and fulfillment systems"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 83,
+  "fields": {
+    "order": 2,
+    "industry_sector": 17,
+    "name": "Shipment tracking portals"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 84,
+  "fields": {
+    "order": 3,
+    "industry_sector": 17,
+    "name": "Vendor coordination workflows"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 85,
+  "fields": {
+    "order": 4,
+    "industry_sector": 17,
+    "name": "Delivery performance analytics"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 86,
+  "fields": {
+    "order": 0,
+    "industry_sector": 18,
+    "name": "Factory operations dashboards"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 87,
+  "fields": {
+    "order": 1,
+    "industry_sector": 18,
+    "name": "Production planning and workflow tools"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 88,
+  "fields": {
+    "order": 2,
+    "industry_sector": 18,
+    "name": "Industrial IoT monitoring systems"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 89,
+  "fields": {
+    "order": 3,
+    "industry_sector": 18,
+    "name": "Predictive maintenance platforms"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 90,
+  "fields": {
+    "order": 4,
+    "industry_sector": 18,
+    "name": "Supply chain visibility solutions"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 91,
+  "fields": {
+    "order": 0,
+    "industry_sector": 19,
+    "name": "Content platforms and streaming experiences"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 92,
+  "fields": {
+    "order": 1,
+    "industry_sector": 19,
+    "name": "Subscription and membership systems"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 93,
+  "fields": {
+    "order": 2,
+    "industry_sector": 19,
+    "name": "Audience analytics dashboards"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 94,
+  "fields": {
+    "order": 3,
+    "industry_sector": 19,
+    "name": "Advertising and campaign tooling"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 95,
+  "fields": {
+    "order": 4,
+    "industry_sector": 19,
+    "name": "Digital asset management workflows"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 96,
+  "fields": {
+    "order": 0,
+    "industry_sector": 20,
+    "name": "Citizen service portals"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 97,
+  "fields": {
+    "order": 1,
+    "industry_sector": 20,
+    "name": "Department workflow automation"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 98,
+  "fields": {
+    "order": 2,
+    "industry_sector": 20,
+    "name": "Document digitization and OCR pipelines"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 99,
+  "fields": {
+    "order": 3,
+    "industry_sector": 20,
+    "name": "Smart infrastructure dashboards"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 100,
+  "fields": {
+    "order": 4,
+    "industry_sector": 20,
+    "name": "Public data reporting tools"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 101,
+  "fields": {
+    "order": 0,
+    "industry_sector": 21,
+    "name": "Property listing and booking platforms"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 102,
+  "fields": {
+    "order": 1,
+    "industry_sector": 21,
+    "name": "Broker and channel partner dashboards"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 103,
+  "fields": {
+    "order": 2,
+    "industry_sector": 21,
+    "name": "Tenant and facility management tools"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 104,
+  "fields": {
+    "order": 3,
+    "industry_sector": 21,
+    "name": "Real estate CRM integrations"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 105,
+  "fields": {
+    "order": 4,
+    "industry_sector": 21,
+    "name": "Location intelligence and portfolio analytics"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 106,
+  "fields": {
+    "order": 0,
+    "industry_sector": 22,
+    "name": "Online storefronts and marketplace platforms"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 107,
+  "fields": {
+    "order": 1,
+    "industry_sector": 22,
+    "name": "Inventory and order management systems"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 108,
+  "fields": {
+    "order": 2,
+    "industry_sector": 22,
+    "name": "Loyalty and customer engagement apps"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 109,
+  "fields": {
+    "order": 3,
+    "industry_sector": 22,
+    "name": "Recommendation engines"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 110,
+  "fields": {
+    "order": 4,
+    "industry_sector": 22,
+    "name": "Retail analytics and merchandising dashboards"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 111,
+  "fields": {
+    "order": 0,
+    "industry_sector": 23,
+    "name": "MVP and product launch builds"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 112,
+  "fields": {
+    "order": 1,
+    "industry_sector": 23,
+    "name": "SaaS platform engineering"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 113,
+  "fields": {
+    "order": 2,
+    "industry_sector": 23,
+    "name": "Growth analytics and experimentation"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 114,
+  "fields": {
+    "order": 3,
+    "industry_sector": 23,
+    "name": "Multi-tenant architecture design"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 115,
+  "fields": {
+    "order": 4,
+    "industry_sector": 23,
+    "name": "Scale-readiness modernization"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 116,
+  "fields": {
+    "order": 0,
+    "industry_sector": 24,
+    "name": "Reservation and booking platforms"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 117,
+  "fields": {
+    "order": 1,
+    "industry_sector": 24,
+    "name": "Guest experience apps"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 118,
+  "fields": {
+    "order": 2,
+    "industry_sector": 24,
+    "name": "Property operations systems"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 119,
+  "fields": {
+    "order": 3,
+    "industry_sector": 24,
+    "name": "Dynamic pricing and demand analytics"
+  }
+},
+{
+  "model": "content.industryfocusarea",
+  "pk": 120,
+  "fields": {
+    "order": 4,
+    "industry_sector": 24,
+    "name": "Service request and concierge workflows"
+  }
+},
+{
+  "model": "content.landingpageprocessstep",
+  "pk": 5,
+  "fields": {
+    "order": 0,
+    "landing_page": 1,
+    "step": "Discover",
+    "summary": "We align on the business problem, delivery constraints, and what success should look like before code starts moving."
+  }
+},
+{
+  "model": "content.landingpageprocessstep",
+  "pk": 6,
+  "fields": {
+    "order": 1,
+    "landing_page": 1,
+    "step": "Shape",
+    "summary": "We turn requirements into a practical roadmap with architecture choices, UX flows, and a release plan your team can trust."
+  }
+},
+{
+  "model": "content.landingpageprocessstep",
+  "pk": 7,
+  "fields": {
+    "order": 2,
+    "landing_page": 1,
+    "step": "Ship",
+    "summary": "We build in short loops with visible progress, tight feedback, and production-minded quality from the first sprint."
+  }
+},
+{
+  "model": "content.landingpageprocessstep",
+  "pk": 8,
+  "fields": {
+    "order": 3,
+    "landing_page": 1,
+    "step": "Scale",
+    "summary": "We stay close through launch, optimization, and team enablement so the product keeps getting easier to operate and extend."
+  }
+},
+{
+  "model": "content.landingpageworksample",
+  "pk": 4,
+  "fields": {
+    "order": 0,
+    "landing_page": 1,
+    "label": "Operations platform",
+    "title": "Unified fragmented back-office workflows into one role-based workspace.",
+    "description": "Designed a calmer operating system for approvals, reporting, and customer coordination so teams could stop stitching work across spreadsheets and inboxes."
+  }
+},
+{
+  "model": "content.landingpageworksample",
+  "pk": 5,
+  "fields": {
+    "order": 1,
+    "landing_page": 1,
+    "label": "Service copilot",
+    "title": "Added AI assistance without removing human judgment from the loop.",
+    "description": "Built a knowledge-aware assistant that drafts answers, surfaces source context, and routes edge cases back to specialists when confidence is low."
+  }
+},
+{
+  "model": "content.landingpageworksample",
+  "pk": 6,
+  "fields": {
+    "order": 2,
+    "landing_page": 1,
+    "label": "Customer experience",
+    "title": "Rebuilt a legacy portal into a faster, more coherent self-serve product.",
+    "description": "Modernized the information architecture, account flows, and frontend performance while protecting existing business rules during the transition."
+  }
+},
+{
+  "model": "content.worksampletechnology",
+  "pk": 10,
+  "fields": {
+    "order": 0,
+    "work_sample": 4,
+    "label": "Next.js"
+  }
+},
+{
+  "model": "content.worksampletechnology",
+  "pk": 11,
+  "fields": {
+    "order": 1,
+    "work_sample": 4,
+    "label": "Node APIs"
+  }
+},
+{
+  "model": "content.worksampletechnology",
+  "pk": 12,
+  "fields": {
+    "order": 2,
+    "work_sample": 4,
+    "label": "Role-based UX"
+  }
+},
+{
+  "model": "content.worksampletechnology",
+  "pk": 13,
+  "fields": {
+    "order": 0,
+    "work_sample": 5,
+    "label": "LLM orchestration"
+  }
+},
+{
+  "model": "content.worksampletechnology",
+  "pk": 14,
+  "fields": {
+    "order": 1,
+    "work_sample": 5,
+    "label": "RAG"
+  }
+},
+{
+  "model": "content.worksampletechnology",
+  "pk": 15,
+  "fields": {
+    "order": 2,
+    "work_sample": 5,
+    "label": "Review workflow"
+  }
+},
+{
+  "model": "content.worksampletechnology",
+  "pk": 16,
+  "fields": {
+    "order": 0,
+    "work_sample": 6,
+    "label": "Design system"
+  }
+},
+{
+  "model": "content.worksampletechnology",
+  "pk": 17,
+  "fields": {
+    "order": 1,
+    "work_sample": 6,
+    "label": "Modern frontend"
+  }
+},
+{
+  "model": "content.worksampletechnology",
+  "pk": 18,
+  "fields": {
+    "order": 2,
+    "work_sample": 6,
+    "label": "Migration planning"
+  }
+},
+{
+  "model": "content.landingpageaboutprinciple",
+  "pk": 4,
+  "fields": {
+    "order": 0,
+    "landing_page": 1,
+    "title": "Senior execution",
+    "description": "You work with people who can make product, design, and engineering decisions without creating layers of confusion."
+  }
+},
+{
+  "model": "content.landingpageaboutprinciple",
+  "pk": 5,
+  "fields": {
+    "order": 1,
+    "landing_page": 1,
+    "title": "Clear communication",
+    "description": "Status, tradeoffs, and risks stay visible. Teams should not need a translation layer to understand where the project stands."
+  }
+},
+{
+  "model": "content.landingpageaboutprinciple",
+  "pk": 6,
+  "fields": {
+    "order": 2,
+    "landing_page": 1,
+    "title": "Built for handoff",
+    "description": "We document architecture, tame complexity, and leave systems in a state your internal team can own with confidence."
+  }
+},
+{
+  "model": "content.landingpageaboutpeoplehighlight",
+  "pk": 4,
+  "fields": {
+    "order": 0,
+    "landing_page": 1,
+    "text": "Hands-on senior execution from discovery through launch"
+  }
+},
+{
+  "model": "content.landingpageaboutpeoplehighlight",
+  "pk": 5,
+  "fields": {
+    "order": 1,
+    "landing_page": 1,
+    "text": "Cross-functional collaboration without silos"
+  }
+},
+{
+  "model": "content.landingpageaboutpeoplehighlight",
+  "pk": 6,
+  "fields": {
+    "order": 2,
+    "landing_page": 1,
+    "text": "Client-facing builders who are comfortable owning outcomes"
+  }
+},
+{
+  "model": "content.landingpagecareerrole",
+  "pk": 4,
+  "fields": {
+    "order": 0,
+    "landing_page": 1,
+    "text": "Engineers who can move from architecture to shipped details"
+  }
+},
+{
+  "model": "content.landingpagecareerrole",
+  "pk": 5,
+  "fields": {
+    "order": 1,
+    "landing_page": 1,
+    "text": "Design-minded builders who care about usability and clarity"
+  }
+},
+{
+  "model": "content.landingpagecareerrole",
+  "pk": 6,
+  "fields": {
+    "order": 2,
+    "landing_page": 1,
+    "text": "People who communicate tradeoffs early and work well with clients"
+  }
+},
+{
+  "model": "content.landingpagefooterquicklink",
+  "pk": 5,
+  "fields": {
+    "order": 0,
+    "landing_page": 1,
+    "label": "Who we are",
+    "href": "#about"
+  }
+},
+{
+  "model": "content.landingpagefooterquicklink",
+  "pk": 6,
+  "fields": {
+    "order": 1,
+    "landing_page": 1,
+    "label": "What we do",
+    "href": "#services"
+  }
+},
+{
+  "model": "content.landingpagefooterquicklink",
+  "pk": 7,
+  "fields": {
+    "order": 2,
+    "landing_page": 1,
+    "label": "Our thinking",
+    "href": "#process"
+  }
+},
+{
+  "model": "content.landingpagefooterquicklink",
+  "pk": 8,
+  "fields": {
+    "order": 3,
+    "landing_page": 1,
+    "label": "Careers",
+    "href": "#careers"
+  }
+},
+{
+  "model": "content.landingpagefooterservicefocus",
+  "pk": 7,
+  "fields": {
+    "order": 0,
+    "landing_page": 1,
+    "label": "AI & Generative AI"
+  }
+},
+{
+  "model": "content.landingpagefooterservicefocus",
+  "pk": 8,
+  "fields": {
+    "order": 1,
+    "landing_page": 1,
+    "label": "Software Development"
+  }
+},
+{
+  "model": "content.landingpagefooterservicefocus",
+  "pk": 9,
+  "fields": {
+    "order": 2,
+    "landing_page": 1,
+    "label": "Web Development"
+  }
+},
+{
+  "model": "content.landingpagefooterservicefocus",
+  "pk": 10,
+  "fields": {
+    "order": 3,
+    "landing_page": 1,
+    "label": "Mobile App Development"
+  }
+},
+{
+  "model": "content.landingpagefooterservicefocus",
+  "pk": 11,
+  "fields": {
+    "order": 4,
+    "landing_page": 1,
+    "label": "Cloud & DevOps"
+  }
+},
+{
+  "model": "content.landingpagefooterservicefocus",
+  "pk": 12,
+  "fields": {
+    "order": 5,
+    "landing_page": 1,
+    "label": "Cybersecurity"
+  }
+},
+{
+  "model": "content.landingpagefootersociallink",
+  "pk": 1,
+  "fields": {
+    "order": 0,
+    "landing_page": 1,
+    "label": "Instagram",
+    "platform": "instagram",
+    "href": ""
+  }
+},
+{
+  "model": "content.landingpagefootersociallink",
+  "pk": 2,
+  "fields": {
+    "order": 1,
+    "landing_page": 1,
+    "label": "Twitter",
+    "platform": "twitter",
+    "href": ""
+  }
+},
+{
+  "model": "content.landingpagefootersociallink",
+  "pk": 3,
+  "fields": {
+    "order": 2,
+    "landing_page": 1,
+    "label": "Facebook",
+    "platform": "facebook",
+    "href": ""
+  }
+},
+{
+  "model": "content.landingpagefootersociallink",
+  "pk": 4,
+  "fields": {
+    "order": 3,
+    "landing_page": 1,
+    "label": "WhatsApp",
+    "platform": "whatsapp",
+    "href": "https://wa.me/919113543816"
+  }
+},
+{
+  "model": "content.landingpagefootersociallink",
+  "pk": 5,
+  "fields": {
+    "order": 4,
+    "landing_page": 1,
+    "label": "LinkedIn",
+    "platform": "linkedin",
+    "href": ""
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "content",
+    "model": "sitecontent"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "content",
+    "model": "industryfocusarea"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "content",
+    "model": "industrysector"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "content",
+    "model": "landingpage"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "content",
+    "model": "landingpageaboutpeoplehighlight"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "content",
+    "model": "landingpageaboutprinciple"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "content",
+    "model": "landingpagecareerrole"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "content",
+    "model": "landingpagedeliverycadenceitem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "content",
+    "model": "landingpagefooterquicklink"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "content",
+    "model": "landingpagefooterservicefocus"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "content",
+    "model": "landingpageherofocusarea"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "content",
+    "model": "landingpagenavigationlink"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "content",
+    "model": "landingpageprocessstep"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "content",
+    "model": "landingpageworksample"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "content",
+    "model": "servicecategory"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "content",
+    "model": "serviceitem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "content",
+    "model": "worksampletechnology"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "content",
+    "model": "landingpagefootersociallink"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add site content",
+    "content_type": [
+      "content",
+      "sitecontent"
+    ],
+    "codename": "add_sitecontent"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change site content",
+    "content_type": [
+      "content",
+      "sitecontent"
+    ],
+    "codename": "change_sitecontent"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete site content",
+    "content_type": [
+      "content",
+      "sitecontent"
+    ],
+    "codename": "delete_sitecontent"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view site content",
+    "content_type": [
+      "content",
+      "sitecontent"
+    ],
+    "codename": "view_sitecontent"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add industry focus area",
+    "content_type": [
+      "content",
+      "industryfocusarea"
+    ],
+    "codename": "add_industryfocusarea"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change industry focus area",
+    "content_type": [
+      "content",
+      "industryfocusarea"
+    ],
+    "codename": "change_industryfocusarea"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete industry focus area",
+    "content_type": [
+      "content",
+      "industryfocusarea"
+    ],
+    "codename": "delete_industryfocusarea"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view industry focus area",
+    "content_type": [
+      "content",
+      "industryfocusarea"
+    ],
+    "codename": "view_industryfocusarea"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add industry sector",
+    "content_type": [
+      "content",
+      "industrysector"
+    ],
+    "codename": "add_industrysector"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change industry sector",
+    "content_type": [
+      "content",
+      "industrysector"
+    ],
+    "codename": "change_industrysector"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete industry sector",
+    "content_type": [
+      "content",
+      "industrysector"
+    ],
+    "codename": "delete_industrysector"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view industry sector",
+    "content_type": [
+      "content",
+      "industrysector"
+    ],
+    "codename": "view_industrysector"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add landing page",
+    "content_type": [
+      "content",
+      "landingpage"
+    ],
+    "codename": "add_landingpage"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change landing page",
+    "content_type": [
+      "content",
+      "landingpage"
+    ],
+    "codename": "change_landingpage"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete landing page",
+    "content_type": [
+      "content",
+      "landingpage"
+    ],
+    "codename": "delete_landingpage"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view landing page",
+    "content_type": [
+      "content",
+      "landingpage"
+    ],
+    "codename": "view_landingpage"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add landing page about people highlight",
+    "content_type": [
+      "content",
+      "landingpageaboutpeoplehighlight"
+    ],
+    "codename": "add_landingpageaboutpeoplehighlight"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change landing page about people highlight",
+    "content_type": [
+      "content",
+      "landingpageaboutpeoplehighlight"
+    ],
+    "codename": "change_landingpageaboutpeoplehighlight"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete landing page about people highlight",
+    "content_type": [
+      "content",
+      "landingpageaboutpeoplehighlight"
+    ],
+    "codename": "delete_landingpageaboutpeoplehighlight"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view landing page about people highlight",
+    "content_type": [
+      "content",
+      "landingpageaboutpeoplehighlight"
+    ],
+    "codename": "view_landingpageaboutpeoplehighlight"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add landing page about principle",
+    "content_type": [
+      "content",
+      "landingpageaboutprinciple"
+    ],
+    "codename": "add_landingpageaboutprinciple"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change landing page about principle",
+    "content_type": [
+      "content",
+      "landingpageaboutprinciple"
+    ],
+    "codename": "change_landingpageaboutprinciple"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete landing page about principle",
+    "content_type": [
+      "content",
+      "landingpageaboutprinciple"
+    ],
+    "codename": "delete_landingpageaboutprinciple"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view landing page about principle",
+    "content_type": [
+      "content",
+      "landingpageaboutprinciple"
+    ],
+    "codename": "view_landingpageaboutprinciple"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add landing page career role",
+    "content_type": [
+      "content",
+      "landingpagecareerrole"
+    ],
+    "codename": "add_landingpagecareerrole"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change landing page career role",
+    "content_type": [
+      "content",
+      "landingpagecareerrole"
+    ],
+    "codename": "change_landingpagecareerrole"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete landing page career role",
+    "content_type": [
+      "content",
+      "landingpagecareerrole"
+    ],
+    "codename": "delete_landingpagecareerrole"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view landing page career role",
+    "content_type": [
+      "content",
+      "landingpagecareerrole"
+    ],
+    "codename": "view_landingpagecareerrole"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add landing page delivery cadence item",
+    "content_type": [
+      "content",
+      "landingpagedeliverycadenceitem"
+    ],
+    "codename": "add_landingpagedeliverycadenceitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change landing page delivery cadence item",
+    "content_type": [
+      "content",
+      "landingpagedeliverycadenceitem"
+    ],
+    "codename": "change_landingpagedeliverycadenceitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete landing page delivery cadence item",
+    "content_type": [
+      "content",
+      "landingpagedeliverycadenceitem"
+    ],
+    "codename": "delete_landingpagedeliverycadenceitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view landing page delivery cadence item",
+    "content_type": [
+      "content",
+      "landingpagedeliverycadenceitem"
+    ],
+    "codename": "view_landingpagedeliverycadenceitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add landing page footer quick link",
+    "content_type": [
+      "content",
+      "landingpagefooterquicklink"
+    ],
+    "codename": "add_landingpagefooterquicklink"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change landing page footer quick link",
+    "content_type": [
+      "content",
+      "landingpagefooterquicklink"
+    ],
+    "codename": "change_landingpagefooterquicklink"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete landing page footer quick link",
+    "content_type": [
+      "content",
+      "landingpagefooterquicklink"
+    ],
+    "codename": "delete_landingpagefooterquicklink"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view landing page footer quick link",
+    "content_type": [
+      "content",
+      "landingpagefooterquicklink"
+    ],
+    "codename": "view_landingpagefooterquicklink"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add landing page footer service focus",
+    "content_type": [
+      "content",
+      "landingpagefooterservicefocus"
+    ],
+    "codename": "add_landingpagefooterservicefocus"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change landing page footer service focus",
+    "content_type": [
+      "content",
+      "landingpagefooterservicefocus"
+    ],
+    "codename": "change_landingpagefooterservicefocus"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete landing page footer service focus",
+    "content_type": [
+      "content",
+      "landingpagefooterservicefocus"
+    ],
+    "codename": "delete_landingpagefooterservicefocus"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view landing page footer service focus",
+    "content_type": [
+      "content",
+      "landingpagefooterservicefocus"
+    ],
+    "codename": "view_landingpagefooterservicefocus"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add landing page hero focus area",
+    "content_type": [
+      "content",
+      "landingpageherofocusarea"
+    ],
+    "codename": "add_landingpageherofocusarea"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change landing page hero focus area",
+    "content_type": [
+      "content",
+      "landingpageherofocusarea"
+    ],
+    "codename": "change_landingpageherofocusarea"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete landing page hero focus area",
+    "content_type": [
+      "content",
+      "landingpageherofocusarea"
+    ],
+    "codename": "delete_landingpageherofocusarea"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view landing page hero focus area",
+    "content_type": [
+      "content",
+      "landingpageherofocusarea"
+    ],
+    "codename": "view_landingpageherofocusarea"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add landing page navigation link",
+    "content_type": [
+      "content",
+      "landingpagenavigationlink"
+    ],
+    "codename": "add_landingpagenavigationlink"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change landing page navigation link",
+    "content_type": [
+      "content",
+      "landingpagenavigationlink"
+    ],
+    "codename": "change_landingpagenavigationlink"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete landing page navigation link",
+    "content_type": [
+      "content",
+      "landingpagenavigationlink"
+    ],
+    "codename": "delete_landingpagenavigationlink"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view landing page navigation link",
+    "content_type": [
+      "content",
+      "landingpagenavigationlink"
+    ],
+    "codename": "view_landingpagenavigationlink"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add landing page process step",
+    "content_type": [
+      "content",
+      "landingpageprocessstep"
+    ],
+    "codename": "add_landingpageprocessstep"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change landing page process step",
+    "content_type": [
+      "content",
+      "landingpageprocessstep"
+    ],
+    "codename": "change_landingpageprocessstep"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete landing page process step",
+    "content_type": [
+      "content",
+      "landingpageprocessstep"
+    ],
+    "codename": "delete_landingpageprocessstep"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view landing page process step",
+    "content_type": [
+      "content",
+      "landingpageprocessstep"
+    ],
+    "codename": "view_landingpageprocessstep"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add landing page work sample",
+    "content_type": [
+      "content",
+      "landingpageworksample"
+    ],
+    "codename": "add_landingpageworksample"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change landing page work sample",
+    "content_type": [
+      "content",
+      "landingpageworksample"
+    ],
+    "codename": "change_landingpageworksample"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete landing page work sample",
+    "content_type": [
+      "content",
+      "landingpageworksample"
+    ],
+    "codename": "delete_landingpageworksample"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view landing page work sample",
+    "content_type": [
+      "content",
+      "landingpageworksample"
+    ],
+    "codename": "view_landingpageworksample"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add service category",
+    "content_type": [
+      "content",
+      "servicecategory"
+    ],
+    "codename": "add_servicecategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change service category",
+    "content_type": [
+      "content",
+      "servicecategory"
+    ],
+    "codename": "change_servicecategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete service category",
+    "content_type": [
+      "content",
+      "servicecategory"
+    ],
+    "codename": "delete_servicecategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view service category",
+    "content_type": [
+      "content",
+      "servicecategory"
+    ],
+    "codename": "view_servicecategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add service item",
+    "content_type": [
+      "content",
+      "serviceitem"
+    ],
+    "codename": "add_serviceitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change service item",
+    "content_type": [
+      "content",
+      "serviceitem"
+    ],
+    "codename": "change_serviceitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete service item",
+    "content_type": [
+      "content",
+      "serviceitem"
+    ],
+    "codename": "delete_serviceitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view service item",
+    "content_type": [
+      "content",
+      "serviceitem"
+    ],
+    "codename": "view_serviceitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add work sample technology",
+    "content_type": [
+      "content",
+      "worksampletechnology"
+    ],
+    "codename": "add_worksampletechnology"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change work sample technology",
+    "content_type": [
+      "content",
+      "worksampletechnology"
+    ],
+    "codename": "change_worksampletechnology"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete work sample technology",
+    "content_type": [
+      "content",
+      "worksampletechnology"
+    ],
+    "codename": "delete_worksampletechnology"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view work sample technology",
+    "content_type": [
+      "content",
+      "worksampletechnology"
+    ],
+    "codename": "view_worksampletechnology"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add landing page footer social link",
+    "content_type": [
+      "content",
+      "landingpagefootersociallink"
+    ],
+    "codename": "add_landingpagefootersociallink"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change landing page footer social link",
+    "content_type": [
+      "content",
+      "landingpagefootersociallink"
+    ],
+    "codename": "change_landingpagefootersociallink"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete landing page footer social link",
+    "content_type": [
+      "content",
+      "landingpagefootersociallink"
+    ],
+    "codename": "delete_landingpagefootersociallink"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view landing page footer social link",
+    "content_type": [
+      "content",
+      "landingpagefootersociallink"
+    ],
+    "codename": "view_landingpagefootersociallink"
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$bjtLMHPwsfWa77PeOso7bX$dUq0mgENO/PlcjvJrTObEOWClQXcgHE+gQza3+Qsi44=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "user",
+    "first_name": "",
+    "last_name": "",
+    "email": "user@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-07-24T11:25:25.505Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
