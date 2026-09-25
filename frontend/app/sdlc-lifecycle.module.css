@@ -1,0 +1,285 @@
+.shell {
+  position: relative;
+  padding-top: 12rem;
+  isolation: isolate;
+}
+
+.shell::before {
+  position: absolute;
+  z-index: -1;
+  inset: 3rem 4%;
+  background: radial-gradient(circle, color-mix(in srgb, var(--background) 84%, transparent) 0 54%, transparent 82%);
+  content: "";
+  pointer-events: none;
+}
+
+.diagram {
+  --orbit-size: min(76vw, 48rem);
+  --orbit-radius: calc(var(--orbit-size) * 0.34);
+  position: relative;
+  width: var(--orbit-size);
+  height: var(--orbit-size);
+  margin: 1rem auto 0;
+}
+
+.connector {
+  position: absolute;
+  inset: 16%;
+  width: 68%;
+  height: 68%;
+  overflow: visible;
+  color: color-mix(in srgb, var(--accent) 40%, var(--line));
+  transform: rotate(-90deg);
+}
+
+.connector circle {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 0.48;
+  stroke-dasharray: 1.6 2.6;
+  stroke-linecap: round;
+  transform-origin: center;
+  animation: draw-cycle 1.1s ease-out both;
+}
+
+.hub {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: flex;
+  width: clamp(12.5rem, 23vw, 16rem);
+  aspect-ratio: 1;
+  transform: translate(-50%, -50%);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid color-mix(in srgb, var(--accent) 70%, transparent);
+  border-radius: 50%;
+  background: #0b1728;
+  color: white;
+  box-shadow: 0 22px 55px rgb(5 13 25 / 28%);
+  outline: 1px dashed color-mix(in srgb, var(--accent) 35%, transparent);
+  outline-offset: 0.65rem;
+  animation: hub-in 500ms ease-out both;
+}
+
+.stage {
+  --angle: 0deg;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 9.5rem;
+  transform: translate(-50%, -50%) rotate(var(--angle)) translateY(calc(var(--orbit-radius) * -1)) rotate(calc(var(--angle) * -1));
+  animation: stage-in 450ms ease-out both;
+  animation-delay: calc(var(--stage-index) * 80ms + 220ms);
+}
+
+.stageButton {
+  width: 100%;
+  border-radius: 1rem;
+  color: var(--foreground);
+  text-align: center;
+}
+
+.node {
+  display: flex;
+  width: 4.75rem;
+  height: 4.75rem;
+  margin-inline: auto;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--surface-strong);
+  color: var(--accent);
+  box-shadow: 0 9px 24px rgb(31 48 71 / 9%);
+  transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.stageButton:hover .node,
+.stageButton:focus-visible .node,
+.stageButton[data-active="true"] .node {
+  transform: scale(1.06);
+  border-color: var(--accent);
+  box-shadow: 0 12px 30px rgb(149 112 35 / 20%);
+}
+
+.stageButton:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 0.4rem;
+}
+
+.stageTitle {
+  display: block;
+  min-height: 2.7rem;
+  margin-top: 0.65rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.35;
+  text-wrap: balance;
+  transition: color 180ms ease;
+}
+
+.stageButton:hover .stageTitle,
+.stageButton:focus-visible .stageTitle,
+.stageButton[data-active="true"] .stageTitle {
+  color: var(--accent);
+}
+
+.arrow {
+  --angle: 0deg;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  color: var(--accent);
+  font-size: 1rem;
+  line-height: 1;
+  opacity: 0.5;
+  transform: translate(-50%, -50%) rotate(var(--angle)) translateY(calc(var(--orbit-radius) * -1)) rotate(90deg);
+  transition: opacity 180ms ease, color 180ms ease;
+}
+
+.arrow[data-active="true"] {
+  opacity: 0.95;
+}
+
+.mobileDescription {
+  display: none;
+}
+
+.mobileStatement {
+  display: none;
+}
+
+.detail {
+  position: absolute;
+  z-index: 3;
+  top: 1rem;
+  left: 50%;
+  width: min(23rem, 88%);
+  min-height: 10rem;
+  padding: 1.35rem 1.5rem;
+  transform: translateX(-50%);
+  border: 1px solid var(--line);
+  border-radius: 1.15rem;
+  background: var(--surface-strong);
+  box-shadow: 0 18px 45px rgb(31 48 71 / 13%);
+  text-align: left;
+}
+
+.detailContent {
+  animation: detail-change 220ms ease-out both;
+}
+
+.mobileCycle {
+  display: none;
+}
+
+@keyframes draw-cycle {
+  from { stroke-dashoffset: 220; opacity: 0; }
+  to { stroke-dashoffset: 0; opacity: 1; }
+}
+
+@keyframes hub-in {
+  from { opacity: 0; transform: translate(-50%, -50%) scale(0.92); }
+  to { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+}
+
+@keyframes stage-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes detail-change {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 900px) and (min-width: 700px) {
+  .diagram {
+    --orbit-size: min(92vw, 42rem);
+  }
+  .stage { width: 8.25rem; }
+  .node { width: 4.25rem; height: 4.25rem; }
+  .stageTitle { font-size: 0.7rem; }
+}
+
+@media (max-width: 699px) {
+  .shell { padding-top: 0; }
+  .diagram,
+  .detail { display: none; }
+  .mobileCycle { display: block; }
+  .stage {
+    position: relative;
+    left: auto;
+    top: auto;
+    width: auto;
+    transform: none;
+    animation: none;
+  }
+  .stage + .stage { margin-top: 0.8rem; }
+  .stageButton {
+    display: grid;
+    grid-template-columns: 3.5rem 1fr;
+    gap: 1rem;
+    text-align: left;
+    cursor: default;
+  }
+  .node { width: 3.5rem; height: 3.5rem; grid-row: span 2; }
+  .stageTitle { min-height: 0; margin-top: 0; font-size: 0.95rem; }
+  .mobileStatement { display: block; margin-top: 0.25rem; font-size: 0.8rem; font-weight: 600; line-height: 1.5; color: var(--foreground); }
+  .mobileDescription { display: block; margin-top: 0.25rem; font-size: 0.8rem; line-height: 1.55; color: var(--muted); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .connector circle,
+  .hub,
+  .stage,
+  .detailContent { animation: none; }
+  .node { transition: none; }
+}
+
+/* The orbital scene and its HTML controls share the same 34% radius. */
+.shell { padding-top: 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 1.5rem; align-items: center; }
+.diagram { container-type: size; width: min(100%, 48rem); height: auto; aspect-ratio: 1; --orbit-radius: 34cqw; }
+.stage { left: var(--x); top: var(--y); transform: translate(-50%, -2.375rem); }
+.hub { width: 30%; min-width: 10rem; max-width: 15rem; background: linear-gradient(145deg, #1c334b, #0b1728); box-shadow: 0 15px 35px rgb(5 13 25 / 20%); }
+.detail { position: relative; top: auto; left: auto; transform: none; width: min(100%, 38rem); min-height: 16rem; margin-inline: auto; order: -1; z-index: var(--depth-focus); }
+.arrow { transform: translate(-50%, -50%) rotate(var(--angle)) translateY(calc(var(--orbit-radius) * -1)); }
+@media (min-width: 1100px) { .shell { grid-template-columns: minmax(0, 1fr) minmax(17rem, .48fr); } .detail { order: 0; } }
+@media (max-width: 900px) and (min-width: 700px) { .stage { transform: translate(-50%, -2.125rem); } }
+@media (max-width: 699px) { .shell { display: block; } .mobileCycle { margin-top: 1rem; } .mobileCycle .stage { left: auto; top: auto; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .stageButton:hover .node, .stageButton:focus-visible .node, .stageButton[data-active="true"] .node { transform: none; } }
+
+.hubLogo { width: clamp(2.25rem, 4vw, 3.5rem); height: auto; object-fit: contain; }
+
+.hub { background: transparent; border: 0; outline: none; box-shadow: none; color: var(--foreground); }
+
+/* Centered lifecycle; explanations live in the shared contextual overlay. */
+.shell { display: block; }
+.hub { background: linear-gradient(145deg, #1c334b, #0b1728); border: 1px solid color-mix(in srgb, var(--accent) 70%, transparent); outline: 1px dashed color-mix(in srgb, var(--accent) 35%, transparent); box-shadow: 0 15px 35px rgb(5 13 25 / 20%); color: #f2f5fa; }
+.hubTitle { margin-top: .65rem; text-align: center; font-size: clamp(.75rem, 1.3vw, 1rem); line-height: 1.4; font-weight: 600; }
+.hubCaption { margin-top: .65rem; color: #bdc9d9; font-size: clamp(.45rem, .7vw, .6rem); text-align: center; }
+.stage { z-index: var(--depth-icon); }
+.stage:has([data-active="true"]) { z-index: var(--depth-focus); }
+.stageButton[data-active="true"] .node { outline: 1px solid var(--accent); outline-offset: 3px; }
+.stageButton[data-pinned="true"] .stageTitle { text-decoration: underline; text-underline-offset: .25rem; }
+@media (prefers-reduced-motion: no-preference) { .stageButton:hover .node, .stageButton:focus-visible .node, .stageButton[data-active="true"] .node { transform: scale(1.04); } }
+
+/* Match the shared ecosystem's aligned rings and uniform category cards. */
+.lifecycleRing { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+.lifecycleRing circle { fill: none; stroke: var(--accent); stroke-width: .22; opacity: .7; }
+.lifecycleRing circle + circle { stroke-width: .1; opacity: .35; }
+.lifecycleRing line { stroke: var(--muted); stroke-width: .08; opacity: .3; }
+.lifecycleRing line[data-active="true"] { stroke: var(--accent); opacity: .85; }
+.hub { background: transparent; border: 0; outline: 0; box-shadow: none; color: var(--foreground); }
+.hubCaption { color: var(--muted); }
+@media (min-width: 700px) {
+  .stage { width: 8.5rem; transform: translate(-50%, -50%); }
+  .stageButton { min-height: 7rem; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .45rem; padding: .75rem .6rem; background: var(--surface-strong); border: 1px solid var(--line); border-radius: .8rem; box-shadow: 0 6px 20px rgb(8 17 31 / 8%); }
+  .stageButton:hover, .stageButton[data-active="true"] { border-color: var(--accent); }
+  .node { width: auto; height: auto; border: 0; border-radius: 0; background: transparent; box-shadow: none; }
+  .stageButton:hover .node, .stageButton:focus-visible .node, .stageButton[data-active="true"] .node { transform: none; outline: 0; box-shadow: none; }
+  .stageTitle { min-height: 0; margin: 0; font-size: .7rem; }
+}
+@media (min-width: 700px) and (max-width: 900px) { .stage { width: 7rem; } }

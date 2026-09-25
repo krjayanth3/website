@@ -1,0 +1,142 @@
+.page {
+  --home-card-radius: 1rem;
+  --home-card-shadow: 0 8px 22px rgb(31 48 71 / 5%);
+  --home-card-shadow-hover: 0 14px 32px rgb(31 48 71 / 9%);
+
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  width: 100%;
+  overflow-x: clip;
+}
+
+/* Hero */
+
+.hero {
+  position: relative;
+  display: flex;
+  width: 100%;
+  min-height: 30rem;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding-block: 3rem;
+  text-align: center;
+  isolation: isolate;
+}
+
+/* Standard cards */
+
+.card {
+  height: 100%;
+  overflow: hidden;
+  border: 1px solid rgb(31 48 71 / 6%);
+  border-radius: var(--home-card-radius);
+  background: var(--surface-strong);
+  box-shadow: var(--home-card-shadow);
+  transition:
+    transform 220ms ease,
+    box-shadow 220ms ease,
+    border-color 220ms ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  border-color: rgb(149 112 35 / 22%);
+  box-shadow: var(--home-card-shadow-hover);
+}
+
+/* Process cards */
+
+
+/* Tablet */
+
+@media (min-width: 640px) {
+  .page {
+    gap: 4.5rem;
+  }
+
+  .hero {
+    min-height: 32rem;
+    padding-block: 3.5rem;
+  }
+
+}
+
+/* Desktop */
+
+@media (min-width: 1024px) {
+  .page {
+    gap: 5rem;
+  }
+
+  .hero {
+    min-height: 34rem;
+    padding-block: 4rem;
+  }
+}
+
+/* Large desktop */
+
+@media (min-width: 1440px) {
+  .hero {
+    min-height: 36rem;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 639px) {
+  .page {
+    gap: 3.25rem;
+  }
+
+  .hero {
+    min-height: 27rem;
+    padding-block: 2.5rem;
+  }
+
+}
+
+/* Reduced motion */
+
+@media (prefers-reduced-motion: reduce) {
+  .page *,
+  .page *::before,
+  .page *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .card:hover {
+    transform: none;
+  }
+}
+
+/* Keep copy and the engineering core in separate, readable layers. */
+.hero { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1rem; }
+@media (min-width: 1024px) { .hero { grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); text-align: left; } }
+
+/* Seamless left-to-right technology row. */
+.technologyMarquee { margin-top: 2rem; min-width: 0; }
+.technologyViewport { overflow: hidden; display: grid; gap: .75rem; }
+.technologyTrack { display: flex; width: max-content; animation: technologiesRight 45s linear infinite; }
+.technologyGroup { display: flex; flex-shrink: 0; gap: .75rem; padding-right: .75rem; }
+.technologyCard { width: clamp(10rem, 17vw, 15rem); flex-shrink: 0; }
+.technologyViewport:hover .technologyTrack,
+.technologyViewport:focus-within .technologyTrack { animation-play-state: paused; }
+@keyframes technologiesRight { from { transform: translateX(-50%); } to { transform: translateX(0); } }
+@media (prefers-reduced-motion: reduce) {
+  .technologyTrack { animation: none !important; width: 100%; }
+  .technologyGroup { width: 100%; display: grid; grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr)); padding: 0; }
+  .technologyGroup[aria-hidden] { display: none; }
+  .technologyCard { width: auto; }
+}
+
+.technologyViewport:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; border-radius: .75rem; }
+
+/* Tighten only the transition from the hero to the services introduction. */
+.hero { padding-bottom: .5rem; margin-bottom: -1.25rem; }
+@media (min-width: 1024px) { .hero { padding-bottom: 0; margin-bottom: -2rem; } }
